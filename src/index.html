@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles/style.css"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+    rel="stylesheet"
+  >
+  <title>Test</title>
+</head>
+
+<body>
+  <div class="contact">
+    <div class="contact__wrapper">
+      <h1 class="contact__title">Contact Us</h1>
+
+      <p class="contact__subtitle">The Voodoo team is looking forward to hearing from you!</p>
+
+      <form
+        action="#"
+        class="contact__form form"
+      >
+        <div class="form__row">
+          <input
+            type="text"
+            class="form__input"
+            placeholder="Full Name*"
+            required
+          >
+          <input
+            type="text"
+            class="form__input"
+            placeholder="Title/Position*"
+            required
+          >
+        </div>
+        <div class="form__row">
+          <select class="form__input">
+            <option value="Practice / Institution*">Practice / Institution*</option>
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+          </select>
+          <input
+            type="email"
+            class="form__input"
+            placeholder="Email Address*"
+            required
+          >
+        </div>
+        <div class="form__row">
+          <input
+            type="number"
+            class="form__input"
+            placeholder="Phone Number*"
+            required
+          >
+          <select class="form__input">
+            <option value="Medical Proffesion*">Medical Proffesion*</option>
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+          </select>
+        </div>
+        <div class="form__row">
+          <input
+            type="text"
+            class="form__input form__input--single"
+            placeholder="Type of Inquiry*"
+            required
+          >
+        </div>
+
+        <textarea
+          class="form__textarea form__input"
+          placeholder="Enter message"
+        ></textarea>
+
+        <button
+          class="form__button"
+          type="submit"
+        >
+          Send Message
+        </button>
+      </form>
+
+      <div class="map">
+      </div>
+    </div>
+  </div>
+
+  <script
+    src="./scripts/script.js"
+    defer
+  ></script>
+  <script
+    src="./scripts/map.js"
+    defer
+  ></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyjuTxGiXIhDbNFkjG-fagqMFz3X4MVRo&map_ids=530b2c4e6bd8957b&callback=initMap&v=weekly"
+    defer
+  ></script>
+</body>
+
+</html>
