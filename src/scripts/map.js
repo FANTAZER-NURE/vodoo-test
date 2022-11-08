@@ -75,7 +75,7 @@ function initMap() {
     map,
     title: 'Our office',
     icon: {
-      url: '../../src/images/marker.svg',
+      url: '../images/marker.svg',
     },
     animation: google.maps.Animation.DROP,
   });
