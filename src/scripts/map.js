@@ -75,7 +75,7 @@ function initMap() {
     map,
     title: 'Our office',
     icon: {
-      url: '../images/marker.svg',
+      url: 'https://fantazer-nure.github.io/vodoo-test/src/images/marker.svg',
     },
     animation: google.maps.Animation.DROP,
   });
