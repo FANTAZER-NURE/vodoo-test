@@ -4,7 +4,6 @@
   transition: all linear 0.3s;
   background: #fff;
   margin-bottom: 35px;
-  color: #414042;
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -27,7 +26,6 @@
   border: 1px solid transparent;
   cursor: pointer;
   font-size: 16px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 10px 10px 10px 10px;
@@ -68,7 +66,7 @@
   cursor: pointer;
   font-size: 16px;
   line-height: 18px;
-  color: #424242;
+  color: #414042;
   transition: all linear 0.3s;
   font-size: 16px;
 }

@@ -15,6 +15,7 @@
 }
 
 .form__input {
+  color: #414042;
   width: 50%;
   margin-bottom: 35px;
   height: 64px;
@@ -29,6 +30,10 @@
   transition: all linear 0.3s;
   border: 1px solid transparent;
   font-size: 16px;
+}
+
+.form__input::placeholder {
+  color: #414042;
 }
 
 .form__input:hover {
